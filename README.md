@@ -131,20 +131,20 @@ Circuit descriptions are plain text with four structured blocks. Example structu
 COMPONENTS:
 ANDG(A1)
 XORG(X2)
-ENDCOMPONENTS
+----------
 
 BEHAVIOUR:
 IN1(X2)=OUT(X1)
 IN2(X2)=1
-ENDBEHAVIOUR
+----------
 
 OBSERVATIONS:
 IN1(X1)=1
-ENDOBSERVATIONS
+----------
 
-OUTOBSERVATIONS:
+OUT-OBSERVATIONS:
 OUT(O1)=0
-ENDOUTOBSERVATIONS
+----------
 ```
 
 **Rules (enforced by the retriever):**
